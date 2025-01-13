@@ -30,23 +30,23 @@ function App() {
                         color: '#99A6B6',
                     },
                 },
-                formatter(_, index) {
-                    let yLabel = '';
-                    if (index === 0) {
-                        yLabel = '0';
-                    } else if (index === 1) {
-                        yLabel = '1';
-                    } else if (index === 2) {
-                        yLabel = '2';
-                    } else if (index === 3) {
-                        yLabel = '3';
-                    } else if (index === 4) {
-                        yLabel = '4';
-                    } else if (index === 5) {
-                        yLabel = '5';
-                    }
-                    return yLabel;
-                },
+                // formatter(_, index) {
+                //     let yLabel = '';
+                //     if (index === 0) {
+                //         yLabel = '0';
+                //     } else if (index === 1) {
+                //         yLabel = '1';
+                //     } else if (index === 2) {
+                //         yLabel = '2';
+                //     } else if (index === 3) {
+                //         yLabel = '3';
+                //     } else if (index === 4) {
+                //         yLabel = '4';
+                //     } else if (index === 5) {
+                //         yLabel = '5';
+                //     }
+                //     return yLabel;
+                // },
             },
             series: [
                 {
